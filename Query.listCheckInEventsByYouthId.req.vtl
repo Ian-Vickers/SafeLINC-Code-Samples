@@ -1,0 +1,4 @@
+{
+  "version": "2018-05-29",
+  "statements":   ["SELECT c.youth_id, c.completed_at, ce.event_id, e.name, e.color, e.icon from CheckIn c JOIN CheckInEvent ce ON c.check_in_id = ce.check_in_id JOIN Event e ON ce.event_id = e.event_id WHERE c.youth_id = '$ctx.args.youth_id' ORDER BY completed_at DESC"]
+}
