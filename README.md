@@ -1,4 +1,7 @@
 # SafeLINC-Code-Samples
+
+**What I have in this repository is a selection of code samples I wrote for the project's API and Frontend that should hopefully provide an overview of my contributions to this project, and my competencies as a Software Engineer.**
+
 ### Design and Goals of SafeLINC
 
 SafeLINC is a mobile app designed to be an interface between at-risk youth, their therapist and optionally, their parents.
@@ -16,5 +19,3 @@ My technical contributions to SafeLINC were as a Full Stack Software Engineer.
 The majority of my Backend contributions were in planning and architecting the project's cloud services hosted on AWS. Due to the highly restricted nature of our user's data we had to ensure our infrastructure was HIPAA compliant, which required the planning process to be slow and careful, and makes it difficult to share the details in a public GitHub repo.
 
 My contributions to SafeLINC's Frontend were focused on the functionality and user experience of the youth, or teen.
-
-**What I have in this repository is a selection of code samples I wrote for the project's API and Frontend that should hopefully provide an overview of my contributions to this project, and my competencies as a Software Engineer.
