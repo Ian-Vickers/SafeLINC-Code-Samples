@@ -19,3 +19,9 @@ My technical contributions to SafeLINC were as a Full Stack Software Engineer.
 The majority of my Backend contributions were in planning and architecting the project's cloud services hosted on AWS. Due to the highly restricted nature of our user's data we had to ensure our infrastructure was HIPAA compliant, which required the planning process to be slow and careful, and makes it difficult to share the details in a public GitHub repo.
 
 My contributions to SafeLINC's Frontend were focused on the functionality and user experience of the youth, or teen.
+
+## External Links
+
+Here's a [link to the article](https://www.cecs.ucf.edu/youth-suicide-prevention-app-is-best-in-show-of-ucfs-largest-ever-engineering-and-computer-science-senior-design-showcase/) written about this project winning Best in Show at the UCF College of Engineering and Computer Science Spring 2021 Senior Design Showcase!
+
+And here's [our team's video submission](https://www.youtube.com/watch?v=SeZn6etQGjU) to the showcase that shows a general overview of the app's core functionality (the project was called Safeplan at the time of recording).
