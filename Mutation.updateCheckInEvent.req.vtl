@@ -1,0 +1,9 @@
+#set( $updateList = {} )
+#foreach( $entry in $ctx.args.updateCheckInEventInput.keySet() )
+  #set( $discard = $updateList.put($entry, "'$ctx.args.updateCheckInEventInput[$entry]'") )
+#end
+#set( $update = $updateList.toString().replace("{","").replace("}","") )
+{
+  "version": "2018-05-29",
+  "statements":   ["UPDATE CheckInEvent SET $update WHERE event_id='$ctx.args.updateCheckInEventInput.event_id'", "SELECT * FROM CheckInEvent WHERE event_id='$ctx.args.updateCheckInEventInput.event_id'"]
+}
